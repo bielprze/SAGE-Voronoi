@@ -1,4 +1,5 @@
-# Application-of-Voronoi-Neighborhood-Weighted-Graph-Convolutional-Networks
+# Sample and Aggregate Voronoi Neighborhood Weighted Graph Neural Network
+(SAGE-Voronoi)
 
 This repository contains end-to-end code for forecasting traffic speeds using:
 

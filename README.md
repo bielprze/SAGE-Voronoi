@@ -25,8 +25,8 @@ Traffic data originate from Darmstadt, Germany. Downloaded using the site https:
 
 1. **Clone this repo**  
    ```bash
-   git clone [https://github.com/bielprze/Application-of-Voronoi-Neighborhood-Weighted-Graph-Convolutional-Networks.git](https://github.com/bielprze/VN-WGCN.git)
-   cd VN-WGCN
+   git clone https://github.com/bielprze/SAGE-Voronoi.git
+   cd SAGE-Voronoi
    ```
 
 2. **Install Python dependencies**  

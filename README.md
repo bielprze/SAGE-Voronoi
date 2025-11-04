@@ -1,5 +1,4 @@
-# SAGE-Voronoi
-Sample and Aggregate Voronoi Neighborhood Weighted Graph Neural Network (SAGE-Voronoi)
+# Application-of-Voronoi-Neighborhood-Weighted-Graph-Convolutional-Networks
 
 This repository contains end-to-end code for forecasting traffic speeds using:
 
@@ -18,13 +17,17 @@ All scripts are PEP 8-compliant, fully documented, and use consistent configurat
 
 ## 📊 Data
 
-Traffic data originate from Darmstadt, Germany. Downloaded using the site [https://datenplattform.darmstadt.de/verkehr/apps/opendata/#/](https://opendata.darmstadt.de/search/tags/Transport%20und%20Verkehr-24). The `2024-03-01_35/` folder is named after its start date (March 1, 2024) and contains 35 days of 10-minute interval recordings. Each CSV file corresponds to a single crossroads (named by sensor ID, e.g., `A003.csv`, `A007.csv`, `A024.csv`, `A113.csv`, etc.). Inside each file, rows represent 10-minute timestamps, with columns for each local sensor’s vehicle count at that crossroads and a `Total` column summing all sensors over each interval.
+Traffic data originate from Darmstadt, Germany. Downloaded using the site https://datenplattform.darmstadt.de/verkehr/apps/opendata/#/. The `2024-03-01_35/` folder is named after its start date (March 1, 2024) and contains 35 days of 10-minute interval recordings. Each CSV file corresponds to a single crossroads (named by sensor ID, e.g., `A003.csv`, `A007.csv`, `A024.csv`, `A113.csv`, etc.). Inside each file, rows represent 10-minute timestamps, with columns for each local sensor’s vehicle count at that crossroads and a `Total` column summing all sensors over each interval.
 
 ---
 
 ## 🚀 Quickstart
 
 1. **Clone this repo**  
+   ```bash
+   git clone [https://github.com/bielprze/Application-of-Voronoi-Neighborhood-Weighted-Graph-Convolutional-Networks.git](https://github.com/bielprze/VN-WGCN.git)
+   cd VN-WGCN
+   ```
 
 2. **Install Python dependencies**  
    ```bash
